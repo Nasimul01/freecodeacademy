@@ -15,6 +15,13 @@ body {
 	background-color: #0a0a23;
 	color: #fff;
 	border-bottom: 4px solid #fdb347;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: row; /* options are row, row-reverse, column, column-reverse */
+	flex-wrap: wrap; /* behaviour when the container is too small. wrap or nowrap */
+}
 
 /* I am assuming there is no commer because it is refereing to the img inside 
  * .gallery */
