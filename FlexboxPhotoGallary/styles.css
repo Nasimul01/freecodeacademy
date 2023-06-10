@@ -21,6 +21,11 @@ body {
 	display: flex;
 	flex-direction: row; /* options are row, row-reverse, column, column-reverse */
 	flex-wrap: wrap; /* behaviour when the container is too small. wrap or nowrap */
+	justify-content: center; /* determine item position across container main axes */
+	align-items: center;
+	padding: 20px 10px;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 /* I am assuming there is no commer because it is refereing to the img inside 
@@ -29,4 +34,5 @@ body {
 	width: 100%;
 	max-width: 350px;
 	height: 300px;
+	object-fit: cover;
 }
