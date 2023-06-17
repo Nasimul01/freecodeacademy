@@ -50,3 +50,7 @@ p {
 .small-text {
 	font-size: 0.85rem; /* rem (root em) is relative to the font size of html element */
 }
+
+.calories-info h2 {
+	margin: 0;
+}
