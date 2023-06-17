@@ -54,3 +54,9 @@ p {
 .calories-info h2 { /* note that there is no commer, not sure why */
 	margin: 0;
 }
+
+.calories-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
