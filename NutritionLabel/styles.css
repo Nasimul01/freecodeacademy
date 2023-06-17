@@ -51,6 +51,6 @@ p {
 	font-size: 0.85rem; /* rem (root em) is relative to the font size of html element */
 }
 
-.calories-info h2 {
+.calories-info h2 { /* note that there is no commer, not sure why */
 	margin: 0;
 }
