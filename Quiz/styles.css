@@ -10,6 +10,7 @@ header {
 	height: 50px;
 	background-color: #1b1b32;
 	display: flex;
+}
 
 #logo {
 	width: max(100px, 18vw);
