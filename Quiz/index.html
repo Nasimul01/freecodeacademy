@@ -3,7 +3,7 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="desciption" content="This is a website to train HTML and CSS by building a quiz page"/>
-		<link rel="stylesheete" href="styles.css" />
+		<link rel="stylesheet" href="styles.css" />
 		<title>Accessibility Quiz</title>
 	<head>
 	<body>
@@ -12,9 +12,9 @@
 			<h1>HTML/CSS Quiz</h1>
 			<nav>
 				<ul>
-					<li><a href="">INFO</a></li>
-					<li><a href="">HTML</a></li>
-					<li><a href="">CSS</a></li>
+					<li><a href="#student-info">INFO</a></li>
+					<li><a href="#html-questions">HTML</a></li>
+					<li><a href="#css-questions">CSS</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -22,6 +22,18 @@
 			<form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
 				<section role="region" aria-labelledby="student-info">
 					<h2 id="student-info">student info</h2>
+					<div class="info">
+						<label for="student-name">Name:</label>
+						<input id="student-name" type="text" name="student-name">
+					</div>
+					<div class="info">
+						<label for="student-email">Email"</label>
+						<input id="student-email" type="email" name="student-email">
+					</div>
+					<div class="info">
+						<label for="birth-date">D.O.B.:<span class="sr-only">(Date of Birth)</span></label>
+						<input id="birth-date" type="date" name="birth-date">
+					</div>
 				</section>
 				<section role="region" aria-labelledby="html-questions">
 					<h2 id="html-questions">html questions</h2>
