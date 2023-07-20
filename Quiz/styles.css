@@ -46,6 +46,12 @@ li > a {
 	color: inherit;
 }
 
+nav li:hover {
+	background-color: #dfdfe2;
+	color: #1b1b32;
+	cursor: pointer;
+}
+
 h1, h2 {
 	font-family: Verdana, sans-serif;
 }
