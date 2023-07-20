@@ -157,7 +157,12 @@ footer {
 }
 
 footer, footer a {
-	color: white;
+	color: #dfdfe2;
+}
+
+address {
+	text-align: center;
+	padding: 1px;
 }
 
 .sr-only {
