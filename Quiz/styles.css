@@ -84,7 +84,16 @@ h2 {
 }
 
 .info {
-	padding: 10px 0 0 10px;
+	padding: 10px 0 0 5px;
+}
+
+.formfow {
+	margin-top: 10px;
+	padding: 0 10px;
+}
+
+input {
+	font-size: 14px;
 }
 
 p::before {
