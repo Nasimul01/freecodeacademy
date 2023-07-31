@@ -6,5 +6,6 @@ h1 {
 img {
 	width: 80%;
 	max-width: 800px;
+	padding: auto;
 }
 
