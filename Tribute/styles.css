@@ -10,7 +10,7 @@ img {
 	display: block;
 }
 
-caption {
+figcaption {
 	display: block;
-	padding: auto;
+	text-align: center;
 }
