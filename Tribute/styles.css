@@ -4,13 +4,13 @@ h1 {
 }
 
 img {
-	width: 80%;
-	max-width: 800px;
+	width: 90%;
+	min-width: 200px;
 	margin: auto;
 	display: block;
 }
 
-caption {
+figcaption {
 	display: block;
-	padding: auto;
+	text-align: center;
 }
