@@ -10,3 +10,7 @@ img {
 	display: block;
 }
 
+caption {
+	display: block;
+	padding: auto;
+}
