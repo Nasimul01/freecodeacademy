@@ -13,4 +13,7 @@ img {
 figcaption {
 	display: block;
 	text-align: center;
+	font-size: smaller;
+	color: #505050;
+	padding-top: 10px;
 }
