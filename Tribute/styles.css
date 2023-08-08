@@ -17,3 +17,9 @@ figcaption {
 	color: #505050;
 	padding-top: 10px;
 }
+
+.text-block {
+	width: 90%;
+	margin-top: 15px;
+	margin: auto;
+}
