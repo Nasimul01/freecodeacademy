@@ -4,8 +4,8 @@ h1 {
 }
 
 img {
-	width: 90%;
-	min-width: 200px;
+	width: 80%;
+	max-width: 800px;
 	margin: auto;
 	display: block;
 }
